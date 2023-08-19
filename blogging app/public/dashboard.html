@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dash board page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+<h2>Personal Blogging App</h2>
+<div class="right">
+<a href="">MD AAMIR</a>
+<button>logout</button>
+</div>
+</div>
+<h1>Dashboard</h1>
+<form action="" onsubmit="return false">
+<div class="body">
+  <div>  <input type="text" id="title" class="title" placeholder="Tittle" minlength="5" maxlength="100"></div>
+<div><textarea id="desc" name="" id="" cols="70" rows="15" minlength="100" maxlength="3000" placeholder="What is your mind" class="desc"></textarea></div>
+<div>
+    <button class="publish-btn" id="publishBtn" type="submit" ">Publish blog</button>
+</div>
+
+
+</div>
+</form>
+<h3>My blogs</h3>
+
+<ul  id="material">
+<li class="blogs"> <img src="blank-profile-picture-973460_640.webp" alt=""> <h3>title</h3>
+<span>Name</span> <span>date</span>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero quisquam et adipisci officiis soluta necessitatibus rem alias quia dolore magni voluptas nemo voluptates consequatur
+    , facilis quae fugit debitis architecto. 
+    </p>
+    <button id="delBtn">Delete</button>
+    <button id="editBtn">edit</button>
+
+</li>
+
+
+
+</ul>
+
+
+
+
+
+<script type="module" src="dashboard.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+.header{
+background-color: #7749f8;
+display: flex;
+justify-content: space-around;
+height:50px ;
+align-items: center;
+}
+.right{
+display: inline;
+
+
+}
+.body{
+display: flex;
+flex-direction: column;
+gap: 5px;
+border: 1px solid black;
+width: 70%;
+align-items: center;
+padding: 30px;
+border: none;
+}
+.title{
+width: 530px;
+height: 25px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.desc{
+    color: rgb(80, 79, 79);
+    border: none;
+word-wrap: break-word;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.publish-btn{
+background-color: #7749f8;
+border: none;
+padding: 10px;
+border-radius: 5px;
+font-size: 18px;
+color: white;
+cursor: pointer;
+}
+h2{
+    color: white;
+    font-family:   Tahoma, sans-serif;
+}
+.blogs{
+border: 1px solid black;
+width: 35%;
+height: 300px;
+
+padding: 10px;
+
+}
+img{
+    width: 70px;
+}
+li{
+    list-style: none;
+}
